@@ -1,4 +1,4 @@
-<article class="section2__article">
+<article class="section2__article @@class">
       <p class="section2__article--title">@@title</p>
       <p class="section2__article--text">@@text </p>
     </article>
