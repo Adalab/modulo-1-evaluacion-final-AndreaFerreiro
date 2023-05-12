@@ -14,24 +14,19 @@
         line-height: 30px;
     }
     &__article{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
         width: 40%;
+        height: fit-content;
+        margin: 10px 0;
+        line-height: 30px;
+        text-align: center;
         &--title{
             font-size: 18px;
             font-family: 'Roboto Slab', serif;
-            line-height: 30px;
             font-weight: bold;
-            text-align: center;
         }
         &--text{
             font-family: 'Roboto', sans-serif;
             font-size: 18px;
-            line-height: 30px;
-            text-align: center;
-
         }
     }
 }

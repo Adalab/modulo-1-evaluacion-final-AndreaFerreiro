@@ -8,7 +8,7 @@
     flex-direction: column;
     gap: 60px;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     &__text{
         display: flex;
         flex-direction: column;
@@ -42,5 +42,6 @@
         padding: 14px 10px;
         border-radius: 100%;
         transform: rotate(180deg);
+        margin-bottom: 60px;
     }
 }
