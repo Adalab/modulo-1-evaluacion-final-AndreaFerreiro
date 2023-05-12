@@ -1,0 +1,39 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    height: 376px;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 15px;
+    &__subtitle{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: $lightblue;
+    }
+    &__title{
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        line-height: 30px;
+        color: $black;
+        text-transform: capitalize;
+    }
+    &__paragraph{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: $greyish-brown;
+        line-height: 30px;
+    }
+    &__buttom{
+        width: 76px;
+        height: 45px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        border: 2px solid $bright-orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 47%;
+        color: $bright-orange;
+        }
+}
