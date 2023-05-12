@@ -6,6 +6,7 @@
     gap: 30px;
     align-items: center;
     padding: 30px 0;
+    padding-top: 50px;
     position: relative;
     &__list1{
         list-style: none;
@@ -44,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-55px);
+    transform: translateY(-70px);
 }
 .flecha{
     background-color: $white;
