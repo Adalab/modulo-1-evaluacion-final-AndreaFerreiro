@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonymous Proxy</title>
+  <script src="https://kit.fontawesome.com/5168f8ef34.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+      <a href="https://adalab.es/"><i class="fa-solid fa-bars" style="color: white;"></i></a>
+    </header>
+    <main class="main">
+      <section class="hero" id="hero">
+          <div class="hero__text">
+            <h1 class="hero__text--title">anonymous proxy</h1>
+            <h3 class="hero__text--subtitle">In hac habitasse platea dictumst.</h3>
+          </div>
+            <div class="hero__icon">
+            <a class="hero__icon--link" href="#section2"><i class="fa-solid fa-chevron-up" style="color: #f26002;"></i></a>
+          </div>
+      </section>
+      <section class="section1">
+          <h6 class="section1__subtitle">Imsopnia Tips</h6>
+          <h2 class="section1__title">looking through a window</h2>
+          <p class="section1__paragraph">Donce accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+          <div class="section1__buttom"><a class="linkgo" href="https://adalab.es/">Go</a></div>
+      </section>
+      <section class="section2" id="section2">
+          <h2 class="section2__title nameofsec">3 reasons to purchase</h2>
+          <article class="section2__article one">
+                <p class="section2__article--title">Ut semetus</p>
+                <p class="section2__article--text">Lorem, ipsum dolor sit amet consectetur. </p>
+              </article>
+          <article class="section2__article two">
+                <p class="section2__article--title">Corabitur ac erat</p>
+                <p class="section2__article--text">Mauris mattis urna quis lorem molestie. </p>
+              </article>
+          <article class="section2__article three">
+                <p class="section2__article--title">Morbi dictum</p>
+                <p class="section2__article--text">Aliquam in dolor et dolor tincidunt. </p>
+              </article>
+          <div class="section2__buttom">
+              <a class="section2__buttom--link"></a><buttom title="more reasons">more reasons</buttom>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container_flecha">
+        <a class="link" href="#hero"><i class="fa-solid fa-arrow-up flecha" style="color: #f26002;"></i></a>
+      </div>
+      <section class="footer__list1">
+        <ul>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">articles</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">books</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">events</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">reasons</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">tips</a></li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
+      </section>
+      <section class="footer__list2">
+        <ul>
+          <li class="footer__list2--element"><a class="link" href="https://adalab.es/">twitter</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">instagram</a></li>
+          <li class="footer__list1--element"><a class="link" href="https://adalab.es/">mastodon.social</a></li>
         </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+      </section>
+      <section class="footer__copy">
+        <p>&copy; 2023</p>
+        <p> we <i class="fa-sharp fa-solid fa-heart" style="color: #f26002;"></i> components</p>
+      </section>
+    </footer>
+</body>
 </html>
